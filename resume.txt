@@ -1,0 +1,13 @@
+
+X_1, M_2 = map(int, input().split())
+tab = [int(i) for i in input().split()]
+
+quand on a une liste d'input, faire le traitement directement lors de la lecture
+cas initiale (i > 0 and ...) ou (first or ...)
+
+list.sort() ou new = sorted(list)
+''.join(list)
+
+print(*list, sep="\n") > affiche les valeurs en allant à la ligne à chaque fois
+print(max(calcul, 0)) > au moins suppérieur à 0
+print("{}:{}".format(hh, mm)) > format
